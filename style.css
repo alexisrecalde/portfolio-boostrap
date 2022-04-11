@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
+.section {
+  margin: 50px 30px;
+  padding: 30px;
+}
+
+.home-img {
+  background-image: url("/assets/stock-vector-website-programming-and-coding-web-development-and-coding-d-vector-illustrations-1906572394.jpg");
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.acerca-img img {
+  width: 25vw;
+  padding: 30px;
+}
+
+.acerca-parrafo p {
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.acerca-parrafo h2 {
+  text-align: center;
+  margin: 0 auto;
+}
+/*************************PORTFOLIO*************************/
+.portfolio h2 {
+  text-align: center;
+}
+.portfolio-card {
+  position: relative;
+  width: 100%;
+  display: block;
+}
+
+.portfolio-card-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(36, 0, 70, 0.85);
+  opacity: 0;
+  padding: 1rem;
+  color: white;
+}
+
+.portfolio-card-info h3 {
+  text-align: center;
+}
+.portfolio-card-info P {
+  text-align: left;
+}
+.col {
+  padding: 20px;
+  margin: 5px;
+}
+.portfolio-card img {
+  width: 100%;
+}
+
+.portfolio-card:hover .portfolio-card-info {
+  opacity: 1;
+}
+
+.portfolio-card-info div {
+  border: 1px solid white;
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+}
+
+/*************************SERVICIOS*************************/
+
+.servicios h2 {
+  text-align: center;
+}
+.servicio-card svg {
+  display: block;
+  margin: 1rem auto;
+  fill: #9d4edd;
+}
+
+/*************************CONTACTO*************************/
+.contacto-titulo {
+  margin: 50px 0;
+}
+.contacto-card {
+  margin: 0 20px;
+  padding: 30px;
+}
+.contacto-card h4 {
+  padding: 15px;
+}
+.form-button {
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 0.3rem;
+  padding: 10px;
+  width: 180px;
+  text-align: center;
+  color: white;
+  background-color: #9d4edd;
+  font-size: 1rem;
+  font-weight: bolder;
+}
